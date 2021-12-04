@@ -39,7 +39,8 @@ flutterReactiveBle.scanForDevices(withServices: [serviceId], scanMode: ScanMode.
   
 ```
 
-The `withServices` parameter specifies the advertised service IDs to look for. If an empty list is passed, all the advertising devices will be reported. The parameter `scanMode` is only used on Android and follows the conventions described on [ScanSettings](https://developer.android.com/reference/android/bluetooth/le/ScanSettings#SCAN_MODE_BALANCED) Android reference page. If `scanMode` is omitted the balanced scan mode will be used.
+The `withServices` parameter specifies the advertised service IDs to look for. If an empty list is passed, all the advertising devices will be reported. The parameter `scanMode` is only used on Android and follows the conventions described on [ScanSettings](https://developer.android.com/reference/android/bluetooth/le/ScanSettings#SCAN_MODE_BALANCED) Android reference page. If `scanMode` is omitted the balanced scan mode will be used. This is fine
+
 
 
 ### Observe host device BLE status
